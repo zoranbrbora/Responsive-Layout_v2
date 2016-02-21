@@ -1,0 +1,353 @@
+
+
+/*
+======================================
+SMARTHPHONES
+======================================
+*/
+
+@media only screen and (min-width: 320px)
+and (max-width: 480px) {
+  
+  /*
+  ==================================
+  GENERAL STYLES
+  ==================================
+  */
+  .wrapp {
+    display: table;
+    width: 100%;
+  } 
+  
+  /* HEADER */
+  
+  .main-header,
+  .main-nav{
+    flex-direction: column;
+    
+  }
+  
+  .logo,
+  .main-nav {
+    margin: 0 auto;
+  }
+  
+  .logo {
+    padding-top: 1em;
+    font-size: 2em;
+  }
+  
+  .main-nav {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .btn {
+    margin: -15px 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 3%;
+    background-color: #fff;
+  }
+  
+  /*
+  ==========================
+  HOME PAGE
+  ==========================
+  */
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .box-image {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .box-text {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .intro-text {
+    padding: 20px;
+    text-align: center;
+    font-size: .9em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  /*
+  ================================
+  PORTFOLIO PAGE
+  ================================
+  */
+  
+  .title {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: .9em;
+  }
+  
+  .main {
+    padding: 0;
+  }
+  
+  
+  .col-1 {
+    float: left;
+    width: 98%;
+    margin-left:  1%;
+    margin-right: 1%;
+  }
+  
+  
+  .text-col {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 20px;
+    word-spacing: .2em;
+  }
+  
+  /*
+  =============================
+  CONTACT PAGE
+  =============================
+  */
+  
+  
+  .contact-page {
+    font-size: .9em;
+  }
+  
+  
+  .contact-text {
+    padding: 0 30px;
+  }
+  
+  ul li {
+    margin: 20px 0;
+  }
+  
+  
+  
+  /*
+  ===================================
+  TUTORIAL PAGE
+  ===================================
+  */
+  
+  .tutorial-title {
+    margin: 100px auto 30px auto;
+  }
+  
+  .tutorial-text {
+    font-size: .9em;
+  }
+  
+  
+  .aboutMe-video,
+  .form,
+  .youtube {
+    float: left;
+    width: 98%;
+    margin-left:  1%;
+    margin-right: 1%;
+    margin-top: 30px;
+  }
+  
+  .youtube {
+    margin-bottom: 30px;
+  }
+  
+  
+  /*
+  ==================================
+  GALLERY PAGE
+  ==================================
+  */
+ 
+  
+  .card{
+    margin-bottom: 300px;
+  }
+  
+  
+  .gallery-title {
+    margin-top: 0;
+  }
+  
+  .card,
+  .card img { 
+    width: 70px; 
+    height: 70px;
+  }
+  
+  .card img {
+    transform-origin: center 150px;
+  }
+  
+  
+  /*
+  ======================
+  FOOTER
+  ======================
+  */
+  
+  
+  
+  .footer-nav {
+    display: none;
+    font-size: .8em;
+  }
+  
+  
+  
+  .top {
+    display: block;
+    float: right;
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+  
+}
+
+
+/*
+========================================
+ Tablets (portrait and landscape)
+========================================
+*/
+
+@media only screen and (min-width: 481px)
+and (max-width: 769px) {
+  
+  /*
+  ==================================
+  GENERAL STYLES
+  ==================================
+  */
+  
+  .wrapp {
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  /* HEADER */
+  
+  
+  .main-header,
+  .main-nav {
+    display: flex;
+  }
+  
+  .main-header {
+    flex-direction: column;
+  }
+  
+  /* LOGO */
+  
+  .logo {
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  /* NAVIGATION */
+  
+  .main-nav {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  
+  
+  /*
+  ======================================
+  HOME PAGE
+  ======================================
+  */
+  
+  .intro-text {
+    word-spacing: .03em;
+    font-size: .9em;
+  }
+  
+  
+  /*
+  ======================================
+  PORTFOLIO PAGE
+  ======================================
+  */
+  
+  .col-1 {
+    width: 48%;
+    margin:  40px 0.5% 0 0.5%;
+    word-spacing: .3em;
+  }
+  
+  .text-col {
+    font-size: .9em;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.2em;
+  }
+  
+  /*
+  =======================================
+  CONTACT PAGE
+  =======================================
+  */
+  
+  
+  .contact-page {
+    font-size: .9em;
+  }
+  
+  
+  /*
+  ===================================
+  TUTORIAL PAGE
+  ===================================
+  */
+  
+  
+  .tutorial-text {
+    font-size: 1.4em;
+  }
+  
+  
+  
+  /*
+  ================================
+  FOOTER
+  ================================
+  */
+  
+  
+  .main-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+ .link-footer {
+    font-size: .8em;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
