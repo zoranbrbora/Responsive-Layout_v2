@@ -1,353 +1,248 @@
-
-
-/*
-======================================
-SMARTHPHONES
-======================================
-*/
-
-@media only screen and (min-width: 320px)
-and (max-width: 480px) {
-  
-  /*
-  ==================================
-  GENERAL STYLES
-  ==================================
-  */
-  .wrapp {
-    display: table;
-    width: 100%;
-  } 
-  
-  /* HEADER */
-  
-  .main-header,
-  .main-nav{
-    flex-direction: column;
-    
-  }
-  
-  .logo,
-  .main-nav {
-    margin: 0 auto;
-  }
-  
-  .logo {
-    padding-top: 1em;
-    font-size: 2em;
-  }
-  
-  .main-nav {
-    margin-top: 20px;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .btn {
-    margin: -15px 20px;
-    display: block;
-    padding: 10px;
-    border-radius: 3%;
-    background-color: #fff;
-  }
-  
-  /*
-  ==========================
-  HOME PAGE
-  ==========================
-  */
-  .intro {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  
-  .box-image {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  
-  .box-text {
-    width: 100%;
-    margin-top: 30px;
-  }
-  
-  .intro-text {
-    padding: 20px;
-    text-align: center;
-    font-size: .9em;
-    padding: 0;
-    margin: 0;
-  }
-  
-  
-  /*
-  ================================
-  PORTFOLIO PAGE
-  ================================
-  */
-  
-  .title {
-    font-weight: bold;
-    margin: 30px 0;
-    font-size: .9em;
-  }
-  
-  .main {
-    padding: 0;
-  }
-  
-  
-  .col-1 {
-    float: left;
-    width: 98%;
-    margin-left:  1%;
-    margin-right: 1%;
-  }
-  
-  
-  .text-col {
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 20px;
-    word-spacing: .2em;
-  }
-  
-  /*
-  =============================
-  CONTACT PAGE
-  =============================
-  */
-  
-  
-  .contact-page {
-    font-size: .9em;
-  }
-  
-  
-  .contact-text {
-    padding: 0 30px;
-  }
-  
-  ul li {
-    margin: 20px 0;
-  }
-  
-  
-  
-  /*
-  ===================================
-  TUTORIAL PAGE
-  ===================================
-  */
-  
-  .tutorial-title {
-    margin: 100px auto 30px auto;
-  }
-  
-  .tutorial-text {
-    font-size: .9em;
-  }
-  
-  
-  .aboutMe-video,
-  .form,
-  .youtube {
-    float: left;
-    width: 98%;
-    margin-left:  1%;
-    margin-right: 1%;
-    margin-top: 30px;
-  }
-  
-  .youtube {
-    margin-bottom: 30px;
-  }
-  
-  
-  /*
-  ==================================
-  GALLERY PAGE
-  ==================================
-  */
- 
-  
-  .card{
-    margin-bottom: 300px;
-  }
-  
-  
-  .gallery-title {
-    margin-top: 0;
-  }
-  
-  .card,
-  .card img { 
-    width: 70px; 
-    height: 70px;
-  }
-  
-  .card img {
-    transform-origin: center 150px;
-  }
-  
-  
-  /*
-  ======================
-  FOOTER
-  ======================
-  */
-  
-  
-  
-  .footer-nav {
-    display: none;
-    font-size: .8em;
-  }
-  
-  
-  
-  .top {
-    display: block;
-    float: right;
-    font-size: .8em;
-    text-transform: uppercase;
-  }
-  
-}
-
-
 /*
 ========================================
  Tablets (portrait and landscape)
 ========================================
 */
 
-@media only screen and (min-width: 481px)
-and (max-width: 769px) {
+@media only screen and (min-width: 768px) {
   
-  /*
-  ==================================
-  GENERAL STYLES
-  ==================================
-  */
-  
-  .wrapp {
-    width: auto;
-    margin: 0 auto;
-  }
-  
-  /* HEADER */
-  
-  
-  .main-header,
-  .main-nav {
-    display: flex;
-  }
+  /* HEADER AND NAVIGATION*/
   
   .main-header {
-    flex-direction: column;
-  }
-  
-  /* LOGO */
-  
-  .logo {
-    margin-top: 20px;
-    align-self: center;
+    justify-content: flex-end;
   }
   
   /* NAVIGATION */
   
+  
   .main-nav {
-    margin-top: 30px;
-    margin-left: 70px;
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
   }
   
-  
-  /*
-  ======================================
-  HOME PAGE
-  ======================================
-  */
-  
-  .intro-text {
-    word-spacing: .03em;
-    font-size: .9em;
+  .main-nav a {
+    border: none;
   }
   
+ 
+/*
+====================================
+HOME PAGE
+====================================  
+*/  
   
-  /*
-  ======================================
-  PORTFOLIO PAGE
-  ======================================
-  */
+.intro {
+  width: 95%;
+  margin: 50px 2.5% 0 2.5%;
+  padding-bottom: 14%; 
+}
+
+.box-text {
+  width: 60%;
+  margin: 0;
+   
+}
   
+.intro-text {
+  text-align: left;
+}
+  
+.box-image {
+  float: right;
+  width: 40%;
+  margin: 0;
+}  
+
+.profile {
+  width: 100%;
+  height: 100%;
+}
+  
+  
+/*
+===============================
+PORTFOLIO PAGE
+===============================  
+*/ 
+  
+  
+ .main {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+  }
+
   .col-1 {
-    width: 48%;
-    margin:  40px 0.5% 0 0.5%;
-    word-spacing: .3em;
+    width: 45%;
+    margin:  0 2.5% 30px 2.5%;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
   }
   
-  .text-col {
-    font-size: .9em;
-    padding-left: 40px;
-    padding-right: 40px;
-    line-height: 1.2em;
-  }
-  
-  /*
-  =======================================
-  CONTACT PAGE
-  =======================================
-  */
-  
-  
-  .contact-page {
-    font-size: .9em;
+  .top {
+    display: none;
   }
   
   
   /*
-  ===================================
+  =============================
   TUTORIAL PAGE
-  ===================================
+  =============================
   */
   
   
-  .tutorial-text {
-    font-size: 1.4em;
+  .tutorial {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
   }
   
+  /*
+  ==============================
+  GALLERY PAGE 
+  ==============================
+  */
+  
+  .gallery-image {
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    margin: 30px 42.5%;
+  }
   
   
   /*
-  ================================
+  =============================
   FOOTER
-  ================================
+  =============================
   */
   
   
-  .main-footer {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  .footer-nav  {
+    display:inherit;
+    margin-right: -10px;
   }
   
-  
- .link-footer {
-    font-size: .8em;
+  .footer-nav a {
+    margin-right: 10px; 
+    text-transform: uppercase;
+    color: #203864;
+    font-weight: bold;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
 }
+
+
+
+/*
+======================================================================
+ DESKTOPS
+======================================================================
+*/
+
+@media only screen and (min-width: 1024px) {
+  
+  /* HEADER AND NAVIGATION */
+  
+  .main-header {
+    width: 95%;
+    margin: 0 2.5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  /* LOGO */
+  
+  .logo {
+    margin-top: 60px;
+  }
+  
+  
+  /* NAVIGATION */
+  
+  .main-nav {
+    margin: 100px 0 0 0;
+    padding: 0;
+  }
+  
+  .main-nav a {
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+  
+  /*
+  ==================================
+  HOME PAGE
+  ==================================
+  */
+  
+  .intro {
+    padding-bottom: 23%;
+  }
+  
+  .intro-text {
+    padding: 0;
+  }
+  
+  .profile {
+    width: 100%;
+    height: 70%;
+  }
+  
+  
+  /*
+  ===================================
+  PORTFOLIO PAGE
+  ===================================
+  */
+  
+  
+.col-1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 28.33%;
+  margin: 30px 2.5% 0 2.5%;
+}
+  
+  
+  /*
+  =======================================
+  GALLERY PAGE
+  =======================================
+  */
+  
+  
+  
+  .card,
+.card img { 
+  width: 140px; 
+  height: 140px;
+}
+
+.card { 
+  margin: 50px auto 600px auto; 
+}
+.card img { 
+  transform-origin: center 300px;
+} 
+  
+  
+  
+  
+  
+  
+  
+  
+
+}
+
+
+
+
+
+
