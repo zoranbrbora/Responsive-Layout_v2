@@ -12,6 +12,11 @@ GENERAL STYLES
           box-sizing: border-box;
 }
 
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .wrapp {
     width: auto;
     margin: 0 auto;
@@ -105,6 +110,7 @@ HOME PAGE
   line-height: 1.3em;
   padding: 1em;
   text-align: center;
+  font-family: 'Lora', serif;
 }
 
 
@@ -146,6 +152,7 @@ PORTFOLIO PAGE
   line-height: 1.5em;
   padding: 1em 3em;
   color: #2F5597;
+  font-family: 'Lora', serif;
 }
 
 
@@ -166,7 +173,8 @@ CONTACT PAGE
 .contact-text {
   font-size: 1.1em;
   line-height: 1.3em;
-  padding: 1em 2.1em;  
+  padding: 1em 2.1em;
+  font-family: 'Lora', serif;
 }
 
 .list {
