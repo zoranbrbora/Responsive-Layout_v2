@@ -48,7 +48,6 @@ HOME PAGE
 .intro-text {
   text-align: left;
   font-size: 22px;
-  padding-right: 30px;
   padding-top: 0;
 }
   
@@ -190,6 +189,7 @@ PORTFOLIO PAGE
   
   .intro-text {
     padding: 0;
+    padding-right: 30px;
   }
   
   .profile {
